@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import React from 'react'
 
 
-export default function Home() {
+const index = () => {
   return (
-    <div >
-     sasan
+    <div>
+      <h1>sasank</h1>
     </div>
   )
 }
+
+export default index
