@@ -3,15 +3,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     
+    
     extend: {
+
       fontFamily: {
-        Pop: "'Poppins', sans-serif",
+        Festive: ['Festive', 'cursive'],
+        Poppins: ['Poppins', 'sans-serif']
       },
-      dropShadow: {
-
-        'special': '10px 0px 10px rgba(53, 51, 51, 0.836)',
-
+      colors:{
+        yellows:{
+          DEFAULT : 'rgb(255, 180, 0)',
+        },
       },
+     
     },
   },
   variants: {
