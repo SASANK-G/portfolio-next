@@ -14,7 +14,7 @@ const Sidebar = () => {
             className="w-32 h-32 mx-auto rounded-full"
             />
             <h3 className="my-3 text-2xl font-medium tracking-wider font-Poppins">Sasank G</h3>
-            <p className="px-2 py-1 my-2 bg-gray-200 rounded-full">Web Developer</p>
+            <p className="px-2 py-1 my-2 bg-gray-100 rounded-full">Web Developer</p>
             
             {/* social icons */}
             <div className= "flex justify-around w-9/12 mx-auto my-3 text-green-500 px-7 md:w-full">
@@ -30,7 +30,7 @@ const Sidebar = () => {
                
             </div>
 
-            <div className="py-4 my-3 bg-gray-200">
+            <div className="py-4 my-3 bg-gray-100">
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation className="w-6 h-6" />
                     <span className="font-Poppins">
@@ -43,7 +43,7 @@ const Sidebar = () => {
             <button className="w-8/12 py-2 my-2 text-white bg-green-400 rounded-full">
                 Ui theme
             </button>
-            <a className="flex items-center justify-center px-1 py-3 my-2 bg-gray-200" href="" download="">
+            <a className="flex items-center justify-center px-1 py-3 my-2 bg-gray-100" href="" download="">
                 <AiOutlineDownload className="w-6 h-6 " /> Download Resume</a>
         
         </div>
