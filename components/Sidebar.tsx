@@ -8,12 +8,12 @@ import {HiMail} from 'react-icons/hi'
 
 const Sidebar = () => {
     return (
-        <div  >
+        <div className="text-sm  font-Poppins" >
             <img src="https://avatars.githubusercontent.com/u/76252464?s=400&u=097223f00442eca3d96ca7224f112e6a8fefe3eb&v=4" 
             alt="user avatar" 
             className="w-32 h-32 mx-auto rounded-full"
             />
-            <h3 className="my-3 text-2xl font-medium tracking-wider font-Poppins">Sasank G</h3>
+            <h3 className="my-3 text-2xl font-medium tracking-wider font-Festive">Sasank G</h3>
             <p className="px-2 py-1 my-2 bg-gray-100 rounded-full">Web Developer</p>
             
             {/* social icons */}
@@ -33,7 +33,7 @@ const Sidebar = () => {
             <div className="py-4 my-3 bg-gray-100">
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation className="w-6 h-6" />
-                    <span className="font-Poppins">
+                    <span>
                         Andhra Pradesh, India
                     </span>
                 </div>
