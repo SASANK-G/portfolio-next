@@ -2,7 +2,6 @@ import React from 'react'
 import {AiFillGithub, AiFillLinkedin, AiOutlineDownload} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import {HiMail} from 'react-icons/hi'
-
 import {useTheme} from 'next-themes'
 
 

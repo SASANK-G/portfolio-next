@@ -18,6 +18,7 @@ module.exports = {
 
        boxShadow: {
        'xxl': 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
+       'xxl-d': '0px 8px 24px #000',
 
 
       }

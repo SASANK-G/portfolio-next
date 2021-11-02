@@ -7,32 +7,32 @@ import { BsCircleFill } from "react-icons/bs";
 export const languages: Skill[] = [
     {
       Icon: BsCircleFill,
-      name: "Python",
-      level: "45",
+      name: "JavaScript",
+      level: "75",
     },
     {
       Icon: BsCircleFill,
-      name: "Java Script",
-      level: "60",
-    },
-    {
-      Icon: BsCircleFill,
-      name: "React Native",
-      level: "80",
-    },
-    {
-      Icon: BsCircleFill,
-      name: "React",
+      name: "ReactJs",
       level: "70",
     },
     {
       Icon: BsCircleFill,
-      name: "Django",
+      name: "MaterialUI, TailwindCSS",
       level: "80",
     },
     {
       Icon: BsCircleFill,
-      name: "Bootstrap",
+      name: "HTML & CSS",
+      level: "90",
+    },
+    {
+      Icon: BsCircleFill,
+      name: "Python",
+      level: "80",
+    },
+    {
+      Icon: BsCircleFill,
+      name: "RobotFramework",
       level: "80",
     },
   ];
@@ -40,22 +40,22 @@ export const languages: Skill[] = [
   export const tools: Skill[] = [
     {
       Icon: BsCircleFill,
-      name: "Figma",
+      name: "Git",
       level: "85",
     },
     {
       Icon: BsCircleFill,
-      name: "Photoshop",
+      name: "Jenkins",
       level: "45",
     },
     {
       Icon: BsCircleFill,
-      name: "Illustrator",
+      name: "Jira",
       level: "60",
     },
     {
       Icon: BsCircleFill,
-      name: "Framer",
+      name: "Photoshop",
       level: "45",
     },
   ];
