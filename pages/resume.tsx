@@ -1,5 +1,6 @@
 import Bar from "../components/Bar";
-import { languages, tools } from "../data";
+import SkillIcons from "../components/SkillIcons";
+import { languages, tools, techSkills } from "../data";
 
 const Resume = () => {
   return (
@@ -30,7 +31,7 @@ const Resume = () => {
       </div>
 
       {/*Languages & Tools */}
-      <div className="grid gap-9 md:grid-cols-2">
+      {/* <div className="grid gap-9 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-lg font-bold">Language & Framework</h5>
           <div className="my-2 text-sm">
@@ -46,6 +47,22 @@ const Resume = () => {
             {tools.map((tool, i) => (
               <Bar value={tool} key={i} />
             ))}
+          </div>
+        </div>
+      </div> */}
+
+      <div className="">
+        <div>
+          <h5 className="my-3 text-lg font-bold">Skills</h5>
+          <div className="flex flex-wrap justify-center w-auto px-4 my-2 text-sm ">
+         
+            {techSkills.map((techSkill, i) => (
+              <div className='has-tooltip' key={i}>
+              <span className='p-2 -mt-8 rounded-md shadow-lg cursor-pointer tooltip dark:text-gray-100 dark:bg-gray-800'>{techSkill.name}</span>
+                <SkillIcons value={techSkill} />
+              </div> 
+            ))}
+          
           </div>
         </div>
       </div>

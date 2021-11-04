@@ -40,7 +40,7 @@ const Navbar = () => {
     },[])
 
     return (
-        <div className="flex justify-between px-2 py-2 my-2 text-lg font-Poppins dark:bg-gray-800">
+        <div className="flex justify-between px-2 py-2 my-2 text-lg font-Poppins">
             <span className='text-lg font-bold text-green-500 border-b-2 border-green-500'>
                 {activeItem}
             </span>
