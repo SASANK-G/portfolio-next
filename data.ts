@@ -1,4 +1,4 @@
-import { Skill, SkillIcon } from "./types";
+import { IProject, Skill, SkillIcon } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
 import { SiJavascript, SiHtml5, SiCss3, SiReact, 
@@ -133,5 +133,35 @@ export const languages: Skill[] = [
       Icon: SiJira,
       name : "Jira",
       color : "#09a6fa",
+    },
+  ]
+
+  export const projects: IProject[] = [
+    { 
+      name: "Inshorts Clone",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/InshortsClone",
+      key_techs: ["React", "NewsAPI", "Material UI"],
+    },
+    { 
+      name: "Google Drive Clone",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/google-drive-clone",
+      key_techs: ["React", "Material UI"],
+    },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
     },
   ]

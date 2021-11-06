@@ -13,3 +13,11 @@ export interface SkillIcon {
     color : string;
 }
 
+export interface IProject {
+  name: string;
+  description: string;
+  image_path: string;
+  deployed_url: string;
+  github_url: string;
+  key_techs: string[];
+}
