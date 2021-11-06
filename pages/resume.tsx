@@ -8,7 +8,7 @@ const Resume = () => {
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-lg font-bold ">Education</h5>
+          <h5 className="my-3 text-base font-bold ">Education</h5>
           <div className="">
             <h5 className="my-2 text-sm font-medium">
               Electronics and Communication(ECE)
@@ -21,7 +21,7 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-lg font-bold">Experience</h5>
+          <h5 className="my-3 text-base font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-sm font-semibold">Analyst | Capgemini Engineering</h5>
             {/* <p className="text-base font-semibold">Capgemini Engineering</p> */}
@@ -53,12 +53,12 @@ const Resume = () => {
 
       <div className="">
         <div>
-          <h5 className="my-3 text-lg font-bold">Skills</h5>
-          <div className="flex flex-wrap justify-center w-auto px-4 my-2 text-sm ">
+          <h5 className="my-3 text-base font-bold">Skills</h5>
+          <div className="flex flex-wrap justify-center w-auto px-4 py-2 my-3 text-sm ">
          
             {techSkills.map((techSkill, i) => (
               <div className='has-tooltip' key={i}>
-              <span className='p-2 -mt-8 rounded-md shadow-lg cursor-pointer tooltip dark:text-gray-100 dark:bg-gray-800'>{techSkill.name}</span>
+              <span className='items-center p-2 -mt-8 rounded-md shadow-lg cursor-pointer tooltip dark:text-gray-100 dark:bg-gray-800'>{techSkill.name}</span>
                 <SkillIcons value={techSkill} />
               </div> 
             ))}

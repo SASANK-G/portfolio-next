@@ -1,5 +1,6 @@
 import { IconType } from "react-icons";
 
+
 export interface Skill {
     Icon: IconType;
     name: string;
@@ -11,3 +12,4 @@ export interface SkillIcon {
     name : string;
     color : string;
 }
+
