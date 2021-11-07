@@ -57,7 +57,7 @@ const Sidebar = () => {
             <p className="px-2 py-1 my-2 bg-gray-100 rounded-full dark:bg-gray-800">Web Developer</p>
             
             {/* social icons */}
-            <div className= "flex justify-around w-9/12 mx-auto my-3 text-green-500 px-7 md:w-full">
+            <div className= "flex justify-around w-9/12 mx-auto my-6 text-green-500 px-7 md:w-full">
                 <a href="https://github.com/SASANK-G" target="_blank" >
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
@@ -70,7 +70,7 @@ const Sidebar = () => {
                
             </div>
 
-            <div className="py-4 my-3 bg-gray-100 rounded-lg dark:bg-gray-800 ">
+            <div className="py-4 my-6 bg-gray-100 rounded-lg dark:bg-gray-800 ">
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation className="w-6 h-6" />
                     <span>
@@ -83,7 +83,7 @@ const Sidebar = () => {
             {/* <button className="w-8/12 py-2 my-2 text-white bg-green-400 rounded-full">
                 Ui theme
             </button> */}
-            <a className="flex items-center justify-center px-1 py-3 my-2 bg-gray-100 rounded-lg dark:bg-gray-800" href="" download="">
+            <a className="flex items-center justify-center px-1 py-3 my-2 bg-green-300 rounded-lg " href="" download="">
                 <AiOutlineDownload className="w-6 h-6 " /> Download Resume</a>
         
         </div>

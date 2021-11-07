@@ -4,24 +4,43 @@ import { languages, tools, techSkills } from "../data";
 
 const Resume = () => {
   return (
-    <div className="px-6 py-2 font-Poppins">
+    <div className="px-6 py-1 font-Poppins ">
       {/* //! Education & Experience */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 p-2 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-base font-bold ">Education</h5>
-          <div className="">
-            <h5 className="my-2 text-sm font-medium">
-              Electronics and Communication(ECE)
+          <div className="px-2 ">
+            <h5 className="my-2 text-sm font-bold">
+              Bachelor of Technology | (2016-2020)
             </h5>
-            <p className="text-sm font-medium">Pragati Engineering college (2016-2020)</p>
-            {/* <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
-            </p> */}
+            <h5 className="my-2 text-sm font-medium">
+              Pragati Engineering College | ECE | CGPA - 7.64
+            </h5>
+           
+           
+          </div>
+          <div className="px-2 my-5">
+            <h5 className="my-2 text-sm font-bold">
+              Intermediate | (2014-2016)
+            </h5>
+            <h5 className="my-2 text-sm font-medium">
+              Narayana Junior College | 92.7%
+            </h5>
+           
+          </div>
+          <div className="px-2 ">
+            <h5 className="my-2 text-sm font-bold">
+              Matriculation | (2014)
+            </h5>
+            <h5 className="my-2 text-sm font-medium">
+              Sri Chaitanya Techno School | 9.8 CGPA
+            </h5>
+            
+           
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-base font-bold">Experience</h5>
+          <h5 className="my-3 text-base font-bold ">Experience</h5>
           <div className="">
             <h5 className="my-2 text-sm font-semibold">Analyst | Capgemini Engineering</h5>
             {/* <p className="text-base font-semibold">Capgemini Engineering</p> */}
@@ -51,10 +70,10 @@ const Resume = () => {
         </div>
       </div> */}
 
-      <div className="">
+      <div className="p-2 rounded-lg dark:bg-gray-800">
         <div>
-          <h5 className="my-3 text-base font-bold">Skills</h5>
-          <div className="flex flex-wrap justify-center w-auto px-4 py-2 my-3 text-sm ">
+          <h5 className="my-2 text-base font-bold">Skills</h5>
+          <div className="flex flex-wrap justify-center w-auto px-6 my-3 text-sm ">
          
             {techSkills.map((techSkill, i) => (
               <div className='has-tooltip' key={i}>
