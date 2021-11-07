@@ -11,14 +11,14 @@ const NavItem:FunctionComponent<{
     return(
         activeItem !== name ? (
             <Link href={route}>
-            <a >
-                <span 
-                className='mx-2 cursor-pointer hover:border-b-4 hover:text-green-500'
-                onClick={()=>setActiveItem(name)}>
-                    {name}
-                </span>
-            </a>
-        </Link>
+                <a >
+                    <span 
+                    className='mx-2 cursor-pointer hover:text-green-500'
+                    onClick={()=>setActiveItem(name)}>
+                        {name}
+                    </span>
+                </a>
+            </Link>
     ):null
         
     )

@@ -6,9 +6,9 @@ const SkillIcons: FunctionComponent<{ value: SkillIcon }> =({value: { Icon, name
 
     const IconColor = `${color}`;
     return (
-        <div className="items-center mx-4 my-3 text-white ">
+        <div className="items-center mx-6 my-3 text-white ">
             
-                    <Icon className="w-10 h-10" 
+                    <Icon className="w-8 h-8" 
                     style={{
                         color: IconColor,
                       }}

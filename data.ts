@@ -164,4 +164,58 @@ export const languages: Skill[] = [
       github_url: "https://github.com/SASANK-G/Entertainment-hub",
       key_techs: ["React", "MovieDbAPI", "Material UI"],
     },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
+    { 
+      name: "Entertainment Hub",
+      description:
+        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+      image_path: "/images/Capture.JPG",
+      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      github_url: "https://github.com/SASANK-G/Entertainment-hub",
+      key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
   ]

@@ -3,6 +3,7 @@ import {AiFillGithub, AiFillLinkedin, AiOutlineDownload} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import {HiMail} from 'react-icons/hi'
 import {useTheme} from 'next-themes'
+import Image from "next/image";
 
 
 
@@ -49,10 +50,21 @@ const Sidebar = () => {
                 }
         </button>
             
-            <img src="https://avatars.githubusercontent.com/u/76252464?s=400&u=097223f00442eca3d96ca7224f112e6a8fefe3eb&v=4" 
+            <Image
+                src="https://avatars.githubusercontent.com/u/76252464?s=400&u=097223f00442eca3d96ca7224f112e6a8fefe3eb&v=4"
+                alt="avatar"
+                className="mx-auto border rounded-full "
+                height="128px"
+                width="128px"
+                layout="intrinsic"
+                quality="100"
+            />
+
+
+            {/* <img src="https://avatars.githubusercontent.com/u/76252464?s=400&u=097223f00442eca3d96ca7224f112e6a8fefe3eb&v=4" 
             alt="user avatar" 
             className="w-32 h-32 mx-auto rounded-full"
-            />
+            /> */}
             <h3 className="my-3 text-2xl font-medium tracking-wider font-Festive">Sasank G</h3>
             <p className="px-2 py-1 my-2 bg-gray-100 rounded-full dark:bg-gray-800">Web Developer</p>
             
@@ -83,7 +95,7 @@ const Sidebar = () => {
             {/* <button className="w-8/12 py-2 my-2 text-white bg-green-400 rounded-full">
                 Ui theme
             </button> */}
-            <a className="flex items-center justify-center px-1 py-3 my-2 bg-green-300 rounded-lg " href="" download="">
+            <a className="flex items-center justify-center px-1 py-3 my-2 bg-green-400 rounded-lg " href="" download="">
                 <AiOutlineDownload className="w-6 h-6 " /> Download Resume</a>
         
         </div>

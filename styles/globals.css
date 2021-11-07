@@ -19,3 +19,5 @@ body{
   .has-tooltip:hover .tooltip {
     @apply z-50 visible;
   }
+
+ 

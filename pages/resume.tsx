@@ -77,7 +77,7 @@ const Resume = () => {
          
             {techSkills.map((techSkill, i) => (
               <div className='has-tooltip' key={i}>
-              <span className='items-center p-2 -mt-8 rounded-md shadow-lg cursor-pointer tooltip dark:text-gray-100 dark:bg-gray-800'>{techSkill.name}</span>
+              <span className='items-center p-2 -mt-8 text-sm rounded-md shadow-lg cursor-pointer tooltip dark:text-gray-100 dark:bg-gray-800'>{techSkill.name}</span>
                 <SkillIcons value={techSkill} />
               </div> 
             ))}
