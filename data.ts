@@ -141,17 +141,17 @@ export const languages: Skill[] = [
       name: "Inshorts Clone",
       description:
         "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/InshortsClone",
+      image_path: "/images/Inshorts.JPG",
+      deployed_url: "https://inshorts-clone.vercel.app/",
+      github_url: "https://github.com/SASANK-G/InshortsClone-r",
       key_techs: ["React", "NewsAPI", "Material UI"],
     },
     { 
       name: "Google Drive Clone",
       description:
         "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      image_path: "/images/Drive.PNG",
+      deployed_url: "https://google-drive-clone-five.vercel.app/",
       github_url: "https://github.com/SASANK-G/google-drive-clone",
       key_techs: ["React", "Material UI"],
     },
@@ -160,62 +160,9 @@ export const languages: Skill[] = [
       description:
         "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
       image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+      deployed_url: "https://entertainment-hub-gs.netlify.app/",
       github_url: "https://github.com/SASANK-G/Entertainment-hub",
       key_techs: ["React", "MovieDbAPI", "Material UI"],
     },
-    { 
-      name: "Entertainment Hub",
-      description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/Entertainment-hub",
-      key_techs: ["React", "MovieDbAPI", "Material UI"],
-    },
-    { 
-      name: "Entertainment Hub",
-      description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/Entertainment-hub",
-      key_techs: ["React", "MovieDbAPI", "Material UI"],
-    },
-    { 
-      name: "Entertainment Hub",
-      description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/Entertainment-hub",
-      key_techs: ["React", "MovieDbAPI", "Material UI"],
-    },
-    { 
-      name: "Entertainment Hub",
-      description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/Entertainment-hub",
-      key_techs: ["React", "MovieDbAPI", "Material UI"],
-    },
-    { 
-      name: "Entertainment Hub",
-      description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/Entertainment-hub",
-      key_techs: ["React", "MovieDbAPI", "Material UI"],
-    },
-    { 
-      name: "Entertainment Hub",
-      description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
-      image_path: "/images/Capture.JPG",
-      deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-      github_url: "https://github.com/SASANK-G/Entertainment-hub",
-      key_techs: ["React", "MovieDbAPI", "Material UI"],
-    },
+    
   ]
