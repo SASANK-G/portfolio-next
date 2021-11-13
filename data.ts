@@ -149,7 +149,7 @@ export const languages: Skill[] = [
     { 
       name: "Google Drive Clone",
       description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+        "This is clone for Google drive.",
       image_path: "/images/Drive.PNG",
       deployed_url: "https://google-drive-clone-five.vercel.app/",
       github_url: "https://github.com/SASANK-G/google-drive-clone",
@@ -158,7 +158,7 @@ export const languages: Skill[] = [
     { 
       name: "Entertainment Hub",
       description:
-        "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",
+        "This app sshows the Movies and Series Information like release date, IMDB ratting, cast and TRAILER!! also.",
       image_path: "/images/Capture.JPG",
       deployed_url: "https://entertainment-hub-gs.netlify.app/",
       github_url: "https://github.com/SASANK-G/Entertainment-hub",
