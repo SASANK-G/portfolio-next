@@ -153,7 +153,7 @@ export const languages: Skill[] = [
       image_path: "/images/Drive.PNG",
       deployed_url: "https://google-drive-clone-five.vercel.app/",
       github_url: "https://github.com/SASANK-G/google-drive-clone",
-      key_techs: ["React", "Material UI"],
+      key_techs: ["React", "Material UI", "Firebase"],
     },
     { 
       name: "Entertainment Hub",
@@ -163,6 +163,15 @@ export const languages: Skill[] = [
       deployed_url: "https://entertainment-hub-gs.netlify.app/",
       github_url: "https://github.com/SASANK-G/Entertainment-hub",
       key_techs: ["React", "MovieDbAPI", "Material UI"],
+    },
+    { 
+      name: "Chat App",
+      description:
+        "This is a full Realtime Chat Application with Social Auth",
+      image_path: "/images/chatapp.png",
+      deployed_url: "https://grove-chat-reactjs-sasank-g.vercel.app/",
+      github_url: "https://github.com/SASANK-G/Grove_Chat_Reactjs",
+      key_techs: ["React", "ChatEngine", "Firebase"],
     },
     
   ]

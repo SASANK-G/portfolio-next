@@ -6,7 +6,7 @@ import { fadeInUp, stagger } from "../animations";
 
 
 
-const Projects = () => {
+const projects = () => {
     
     return (
       <div className="px-5 py-2 overflow-y-scroll" style={{ height: "70vh" }}>
@@ -31,4 +31,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default projects

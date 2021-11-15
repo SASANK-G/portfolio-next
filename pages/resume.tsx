@@ -1,18 +1,26 @@
 import Bar from "../components/Bar";
 import SkillIcons from "../components/SkillIcons";
 import { languages, tools, techSkills } from "../data";
+import { fadeInUp, stagger } from "../animations";
+import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
-    <div className="px-6 py-1 font-Poppins ">
+    <motion.div className="px-6 py-1 font-Poppins "
+    variants={ stagger}
+        initial="initial"
+        animate = "animate"
+    >
       {/* //! Education & Experience */}
-      <div className="grid gap-6 p-2 md:grid-cols-2">
+      <motion.div className="grid gap-6 p-2 md:grid-cols-2"
+      variants={fadeInUp}
+      >
         <div>
           <h5 className="my-3 text-base font-bold ">Education</h5>
           <div className="px-2 ">
             <h5 className="my-2 text-sm font-bold">
               Bachelor of Technology | (2016-2020)
-            </h5>
+            </h5> 
             <h5 className="my-2 text-sm font-medium">
               Pragati Engineering College | ECE | CGPA - 7.64
             </h5>
@@ -47,7 +55,7 @@ const Resume = () => {
             <p className="my-3 text-sm">I dont know why I am doing this job</p>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/*Languages & Tools */}
       {/* <div className="grid gap-9 md:grid-cols-2">
@@ -70,7 +78,9 @@ const Resume = () => {
         </div>
       </div> */}
 
-      <div className="p-2 rounded-lg dark:bg-gray-800">
+      <motion.div className="p-2 rounded-lg dark:bg-gray-800"
+      variants={fadeInUp}
+      >
         <div>
           <h5 className="my-2 text-base font-bold">Skills</h5>
           <div className="flex flex-wrap justify-center w-auto px-6 my-3 text-sm ">
@@ -84,8 +94,8 @@ const Resume = () => {
           
           </div>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
