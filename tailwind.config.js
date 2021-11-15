@@ -7,7 +7,7 @@ module.exports = {
     extend: {
 
       fontFamily: {
-        Festive: ['Festive', 'cursive'],
+        Festive: ['Courgette', 'cursive'],
         Poppins: ['Poppins', 'sans-serif']
       },
       colors:{

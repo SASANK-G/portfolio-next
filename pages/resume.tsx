@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
-    <motion.div className="px-6 py-1 font-Poppins "
+    <motion.div className="px-6 py-1 font-Poppins dark:text-white "
     variants={ stagger}
         initial="initial"
         animate = "animate"
@@ -17,30 +17,30 @@ const Resume = () => {
       >
         <div>
           <h5 className="my-3 text-base font-bold ">Education</h5>
-          <div className="px-2 ">
-            <h5 className="my-2 text-sm font-bold">
+          <div className="px-2 text-sm ">
+            <h5 className="my-2 font-bold">
               Bachelor of Technology | (2016-2020)
             </h5> 
-            <h5 className="my-2 text-sm font-medium">
+            <h5 className="my-2 font-medium">
               Pragati Engineering College | ECE | CGPA - 7.64
             </h5>
            
            
           </div>
-          <div className="px-2 my-5">
-            <h5 className="my-2 text-sm font-bold">
+          <div className="px-2 my-5 text-sm">
+            <h5 className="my-2 font-bold">
               Intermediate | (2014-2016)
             </h5>
-            <h5 className="my-2 text-sm font-medium">
+            <h5 className="my-2 font-medium">
               Narayana Junior College | 92.7%
             </h5>
            
           </div>
-          <div className="px-2 ">
-            <h5 className="my-2 text-sm font-bold">
+          <div className="px-2 text-sm">
+            <h5 className="my-2 font-bold">
               Matriculation | (2014)
             </h5>
-            <h5 className="my-2 text-sm font-medium">
+            <h5 className="my-2 font-medium">
               Sri Chaitanya Techno School | 9.8 CGPA
             </h5>
             
