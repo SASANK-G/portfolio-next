@@ -4,6 +4,8 @@ import {GoLocation} from 'react-icons/go'
 import {HiMail} from 'react-icons/hi'
 import {useTheme} from 'next-themes'
 import Image from "next/image";
+import { motion } from 'framer-motion'
+import { fadeInUp, stagger, zoom } from '../animations'
 
 
 
@@ -14,7 +16,8 @@ const Sidebar = () => {
 
 
     return (
-        <div className="text-sm font-Poppins" >
+        <div className="text-sm font-Poppins" 
+        >
 
             <button
             aria-label="Toggle Dark Mode"
@@ -50,7 +53,8 @@ const Sidebar = () => {
                 }
         </button>
             
-            <Image
+          
+          <Image
                 src="https://avatars.githubusercontent.com/u/76252464?s=400&u=097223f00442eca3d96ca7224f112e6a8fefe3eb&v=4"
                 alt="avatar"
                 className="mx-auto border rounded-full "
@@ -59,6 +63,8 @@ const Sidebar = () => {
                 layout="intrinsic"
                 quality="100"
             />
+
+         
 
 
             {/* <img src="https://avatars.githubusercontent.com/u/76252464?s=400&u=097223f00442eca3d96ca7224f112e6a8fefe3eb&v=4" 
@@ -69,7 +75,10 @@ const Sidebar = () => {
             <p className="px-2 py-1 my-2 bg-gray-100 rounded-full dark:bg-gray-800">Web Developer</p>
             
             {/* social icons */}
-            <div className= "flex justify-around w-9/12 mx-auto my-6 text-green-500 px-7 md:w-full">
+            <motion.div className= "flex justify-around w-9/12 mx-auto my-6 text-green-500 px-7 md:w-full"
+            variants={fadeInUp}
+            initial="initial"
+        animate = "animate" >
                 <a href="https://github.com/SASANK-G" target="_blank" rel="noreferrer" >
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
@@ -80,7 +89,7 @@ const Sidebar = () => {
                     <HiMail className="w-8 h-8 cursor-pointer" />
                 </a>
                
-            </div>
+            </motion.div>
 
             <div className="py-4 my-6 bg-gray-100 rounded-lg dark:bg-gray-800 ">
                 <div className="flex items-center justify-center space-x-2">

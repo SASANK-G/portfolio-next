@@ -15,7 +15,7 @@ const Resume = () => {
       <motion.div className="grid gap-6 p-2 md:grid-cols-2"
       variants={fadeInUp}
       >
-        <div>
+        <div className="font-Poppins">
           <h5 className="my-3 text-base font-bold ">Education</h5>
           <div className="px-2 text-sm ">
             <h5 className="my-2 font-bold">
@@ -47,7 +47,7 @@ const Resume = () => {
            
           </div>
         </div>
-        <div>
+        <div className="font-Poppins">
           <h5 className="my-3 text-base font-bold ">Experience</h5>
           <div className="">
             <h5 className="my-2 text-sm font-semibold">Analyst | Capgemini Engineering</h5>
@@ -79,17 +79,18 @@ const Resume = () => {
       </div> */}
 
       <motion.div className="p-2 rounded-lg dark:bg-gray-800"
-      variants={fadeInUp}
+      
       >
         <div>
           <h5 className="my-2 text-base font-bold">Skills</h5>
           <div className="flex flex-wrap justify-center w-auto px-6 my-3 text-sm ">
          
             {techSkills.map((techSkill, i) => (
-              <div className='has-tooltip' key={i}>
+              <motion.div className='has-tooltip' key={i}
+              variants={fadeInUp}>
               <span className='items-center p-2 -mt-8 text-sm rounded-md shadow-lg cursor-pointer tooltip dark:text-gray-100 dark:bg-gray-800'>{techSkill.name}</span>
                 <SkillIcons value={techSkill} />
-              </div> 
+              </motion.div> 
             ))}
           
           </div>

@@ -9,6 +9,17 @@ export const fadeInUp = {
     },
 };
 
+export const zoom = {
+    initial:{
+        opacity: 0,
+        width: 0,
+    },
+    animate:{
+        opacity:1,
+        width: 128,
+    },
+};
+
 export const stagger = {
     initial:{
        
