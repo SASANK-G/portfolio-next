@@ -16,7 +16,7 @@ const Sidebar = () => {
 
 
     return (
-        <div className="text-sm font-Poppins" 
+        <div className="text-sm font-Poppins dark:text-white" 
         >
 
             <button

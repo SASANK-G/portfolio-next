@@ -20,7 +20,7 @@ const ProjectCard: FunctionComponent<{
   const [showDetail, setShowDetail] = useState(false);
 
   return (
-    <div className="dark:bg-gray-800 font-Poppins">
+    <div className="dark:bg-gray-800 font-Poppins dark:text-white">
       <Image
         src={image_path}
         alt={name}
