@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"></link>
         </Head>
-        <body className="flex flex-col content-center justify-center h-screen py-2 align-middle dark:bg-black">
+        <body className="py-2 md:flex md:flex-col md:justify-center md:h-screen dark:bg-black">
           <div>
             <Main />
             <NextScript/>

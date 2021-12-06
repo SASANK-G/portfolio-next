@@ -168,7 +168,7 @@ export const languages: Skill[] = [
       name: "Chat App",
       description:
         "This is a full Realtime Chat Application with Social Auth",
-      image_path: "/images/Chatapp.PNG",
+      image_path: "/images/ChatApp.PNG",
       deployed_url: "https://grove-chat-reactjs-sasank-g.vercel.app/",
       github_url: "https://github.com/SASANK-G/Grove_Chat_Reactjs",
       key_techs: ["React", "ChatEngine", "Firebase"],

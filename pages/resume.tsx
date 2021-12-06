@@ -15,8 +15,8 @@ const Resume = () => {
       <motion.div className="grid gap-6 p-2 md:grid-cols-2"
       variants={fadeInUp}
       >
-        <div className="font-Poppins">
-          <h5 className="my-3 text-base font-bold ">Education</h5>
+        <div >
+          <h5 className="my-3 text-base font-bold font-Poppins ">Education</h5>
           <div className="px-2 text-sm ">
             <h5 className="my-2 font-bold">
               Bachelor of Technology | (2016-2020)
@@ -47,8 +47,8 @@ const Resume = () => {
            
           </div>
         </div>
-        <div className="font-Poppins">
-          <h5 className="my-3 text-base font-bold ">Experience</h5>
+        <div >
+          <h5 className="my-3 text-base font-bold font-Poppins ">Experience</h5>
           <div className="">
             <h5 className="my-2 text-sm font-semibold">Analyst | Capgemini Engineering</h5>
             {/* <p className="text-base font-semibold">Capgemini Engineering</p> */}
@@ -82,7 +82,7 @@ const Resume = () => {
       
       >
         <div>
-          <h5 className="my-2 text-base font-bold">Skills</h5>
+          <h5 className="my-2 text-base font-bold font-Poppins">Skills</h5>
           <div className="flex flex-wrap justify-center w-auto px-6 my-3 text-sm ">
          
             {techSkills.map((techSkill, i) => (
