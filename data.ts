@@ -138,6 +138,15 @@ export const languages: Skill[] = [
 
   export const projects: IProject[] = [
     { 
+      name: "MERN Blog",
+      description:
+        "This is a blog website.",
+      image_path: "/images/mern.jpg",
+      deployed_url: "",
+      github_url: "https://github.com/SASANK-G/Blog-MERN",
+      key_techs: ["React", "MongoDb", "NodeJs", "Express"],
+    },
+    { 
       name: "Inshorts Clone",
       description:
         "This app shows the latest news in less than 60 word, related to business, sports, technology around the World.",

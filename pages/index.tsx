@@ -32,7 +32,7 @@ const index = () => {
         <motion.div className="py-4 md:px-12 px-7 font-Poppins"
         variants={fadeInUp}
         >
-          <div className="flex items-center self-start py-2 "><AiOutlineRight className="mx-2 text-green-600"/> Age : 22 </div>
+          <div className="flex items-center self-start py-2 "><AiOutlineRight className="mx-2 text-green-600"/> Age : 23 </div>
           <div className="flex items-center self-start py-2 "><AiOutlineRight className="mx-2 text-green-600"/> Marital Status : Single</div>
           <div className="flex items-center self-start py-2 "><AiOutlineRight className="mx-2 text-green-600"/>Hobbies : Photoshop, Sudoku </div>
 

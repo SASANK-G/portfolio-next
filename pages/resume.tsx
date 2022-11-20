@@ -50,9 +50,14 @@ const Resume = () => {
         <div >
           <h5 className="my-3 text-base font-bold font-Poppins ">Experience</h5>
           <div className="">
+            <h5 className="my-2 text-sm font-semibold">Jr Software Engineer | EPAM</h5>
+            {/* <p className="text-base font-semibold">Capgemini Engineering</p> */}
+            <p className="my-3 text-sm px-2">Working on .....</p>
+          </div>
+          <div className="">
             <h5 className="my-2 text-sm font-semibold">Analyst | Capgemini Engineering</h5>
             {/* <p className="text-base font-semibold">Capgemini Engineering</p> */}
-            <p className="my-3 text-sm">I dont know why I am doing this job</p>
+            <p className="my-3 text-sm px-2">I dont know why I am doing this job</p>
           </div>
         </div>
       </motion.div>
